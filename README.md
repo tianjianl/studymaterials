@@ -1,2 +1,2 @@
-# studymaterials
-Notes on ML/DL/OS/Programming/Algorithms
+# About
+This is a repository of my notes on ML/DL/OS/Programming/Algorithms
