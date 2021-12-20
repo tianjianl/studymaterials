@@ -2,9 +2,9 @@
 This is a repository of my notes on ML/DL/OS/Programming/Algorithms
 
 
-#### These are notes on papers that I have read
-https://github.com/truthbutcher/studymaterials/blob/main/%E8%AE%BA%E6%96%87%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0%20FW2021.pdf
+#### Paper Notes
+These are some notes on papers I have read, most of them are about graph neural networks [[Notes]]()  
 
+Training Graph Neural Networks with 1000 Layers [[My notes]](Training%20Graph%20Neural%20Networks%20with%201000%20Layers.pdf)  
 
-Training Graph Neural Networks with 1000 Layers [[My notes]](Training%20Graph%20Neural%20Networks%20with%201000%20Layers.pdf)
-Masked Label Prediction - Unified Message Passing Model for Semi-Supervised Classification [[My notes]]()
+Masked Label Prediction - Unified Message Passing Model for Semi-Supervised Classification [[My notes]](Masked%20Label%20Prediction_%20Unified%20Message%20Passing%20Model%20for%20Semi-Supervised%20Classification.pdf)
