@@ -7,4 +7,4 @@ https://github.com/truthbutcher/studymaterials/blob/main/%E8%AE%BA%E6%96%87%E9%9
 
 
 Training Graph Neural Networks with 1000 Layers [[My notes]](Training%20Graph%20Neural%20Networks%20with%201000%20Layers.pdf)
-
+Masked Label Prediction - Unified Message Passing Model for Semi-Supervised Classification [[My notes]]()
