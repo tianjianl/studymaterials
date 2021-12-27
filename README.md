@@ -29,3 +29,6 @@ Adaptive Graph Diffusion Networks with Hop-wise Attention [[My notes]](https://d
 
 Spectral Temporal Graph Neural Network for Multivariate Time-series Forecasting（NIPS 2020）[[My notes]](https://dw505r6kni.feishu.cn/docs/doccnO8M9iob0l7vKQYhfDhXuDh?from=from_copylink) [[Paper]](https://arxiv.org/pdf/2103.07719)
 #### To Be Continued...
+Be Your Own Teacher: Improve the Performance of Convolutional Neural Networks via Self Distillation [[Paper]](https://arxiv.org/abs/1905.08094)
+GPT-GNN: Generative Pre-Training of Graph Neural Networks [Paper](https://arxiv.org/abs/2006.15437)
+
