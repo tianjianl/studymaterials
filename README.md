@@ -33,3 +33,4 @@ Be Your Own Teacher: Improve the Performance of Convolutional Neural Networks vi
 
 GPT-GNN: Generative Pre-Training of Graph Neural Networks [[Paper]](https://arxiv.org/abs/2006.15437)
 
+Graph Neural Networks with Local Graph Parameters NIPS2021 [[Paper]] https://arxiv.org/abs/2106.06707
