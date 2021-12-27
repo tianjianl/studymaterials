@@ -3,7 +3,23 @@ This is a repository of my notes on ML/DL/OS/Programming/Algorithms
 
 
 #### Paper Notes
-These are some notes on papers I have read, most of them are about graph neural networks [[Notes]](论文阅读笔记%20FW2021.pdf)  
+These are some notes on papers I have read written in Chinese. I am planning to update the English versions in summer 2022. 
+
+(GIN) How Powerful Are Graph Neural Networks[[My notes]]() [[Papaer]]()  
+
+(STFGNN) Spatial-Temporal Fusion Graph Neural Networks for Traffic Flow Forecasting AAAI2021 [[My Notes]]() [[Paper]]()
+
+(DGI) Deep Graph Infomax ICLR 2019 [[My notes]]() [[Paper]]()
+
+(Metapath2vec) Scalable Representation Learning For Heterogeneous Networks [[My Notes]]() [[Paper]]()
+
+Attention Based Spatial-Temporal Graph Convolutional Networks for Traffic Flow Forecasting AAAI2019 [[My notes]]() [[Paper]]()
+
+Spatial-Temporal Synchronous Graph Convolutional Networks: A New Framework for Spatial-Temporal Network Data Forecasting AAAI2020 [[My notes]]() [[Paper]]()
+
+Cluster-GCN: An Efficient Algorithm for Training Deep and Large Graph Convolutional Networks KDD2019 [[My notes]]() [[Paper]]()
+
+Bag of Tricks for Node Classification with Graph Neural Networks [[My notes]]() [[Paper]]()
 
 Training Graph Neural Networks with 1000 Layers [[My notes]](Training%20Graph%20Neural%20Networks%20with%201000%20Layers.pdf)  [[paper]](https://arxiv.org/abs/2106.07476)  
 
