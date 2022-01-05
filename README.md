@@ -5,7 +5,7 @@ This is a repository of my notes on ML/DL/OS/Programming/Algorithms
 #### Paper Notes
 These are some notes on papers I have read written in Chinese. I am planning to update the English versions in summer 2022. 
 
-(GIN) How Powerful Are Graph Neural Networks[[My notes]]() [[Papaer]]()  
+(GIN) How Powerful Are Graph Neural Networks[[My notes]](https://dw505r6kni.feishu.cn/docs/doccnXTBk1WG2npJHqD1X3BfUMc) [[Papaer]](https://arxiv.org/pdf/1810.00826.pdf)  
 
 (STFGNN) Spatial-Temporal Fusion Graph Neural Networks for Traffic Flow Forecasting AAAI2021 [[My Notes]]() [[Paper]]()
 
