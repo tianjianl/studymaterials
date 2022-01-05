@@ -9,9 +9,9 @@ These are some notes on papers I have read written in Chinese. I am planning to 
 
 (STFGNN) Spatial-Temporal Fusion Graph Neural Networks for Traffic Flow Forecasting AAAI2021 [[My Notes]]() [[Paper]]()
 
-(DGI) Deep Graph Infomax ICLR 2019 [[My notes]]() [[Paper]]()
+(DGI) Deep Graph Infomax ICLR 2019 [[My notes]](https://dw505r6kni.feishu.cn/docs/doccn4oQsV26ZhWhiRT94gUjerZ) [[Paper]](https://arxiv.org/abs/1809.10341)
 
-(Metapath2vec) Scalable Representation Learning For Heterogeneous Networks [[My Notes]]() [[Paper]]()
+(Metapath2vec) Scalable Representation Learning For Heterogeneous Networks [[My Notes]](https://dw505r6kni.feishu.cn/docs/doccneV23w2tqYjlJvIVLTcMcbc) [[Paper]](https://ericdongyx.github.io/papers/KDD17-dong-chawla-swami-metapath2vec.pdf)
 
 Attention Based Spatial-Temporal Graph Convolutional Networks for Traffic Flow Forecasting AAAI2019 [[My notes]]() [[Paper]]()
 
