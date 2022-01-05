@@ -3,7 +3,18 @@ This is a repository of my notes on ML/DL/OS/Programming/Algorithms
 
 
 #### Paper Notes
-These are some notes on papers I have read written in Chinese. I am planning to update the English versions in summer 2022. 
+These are some notes on papers I have read written in Chinese. I am planning to update the English versions in summer 2022.   
+
+Cluster-GCN: An Efficient Algorithm for Training Deep and Large Graph Convolutional Networks KDD2019 [[My notes]](https://dw505r6kni.feishu.cn/docs/doccnh3w0FSuqE6UszAd6mwHlcf) [[Paper]](https://arxiv.org/pdf/1905.07953.pdf
+)
+
+Training Graph Neural Networks with 1000 Layers [[My notes]](Training%20Graph%20Neural%20Networks%20with%201000%20Layers.pdf)  [[paper]](https://arxiv.org/abs/2106.07476)  
+
+Masked Label Prediction - Unified Message Passing Model for Semi-Supervised Classification [[My notes]](Masked%20Label%20Prediction_%20Unified%20Message%20Passing%20Model%20for%20Semi-Supervised%20Classification.pdf) [[paper]](https://arxiv.org/abs/2009.03509)  
+
+Adaptive Graph Diffusion Networks with Hop-wise Attention [[My notes]](https://dw505r6kni.feishu.cn/docs/doccnRGDkk6kaTVSPEk9ZUjHlXb?from=from_copylink)[[paper]](https://arxiv.org/abs/2012.15024) 
+
+Spectral Temporal Graph Neural Network for Multivariate Time-series Forecasting（NIPS 2020）[[My notes]](https://dw505r6kni.feishu.cn/docs/doccnO8M9iob0l7vKQYhfDhXuDh?from=from_copylink) [[Paper]](https://arxiv.org/pdf/2103.07719)
 
 (GIN) How Powerful Are Graph Neural Networks[[My notes]](https://dw505r6kni.feishu.cn/docs/doccnXTBk1WG2npJHqD1X3BfUMc) [[Papaer]](https://arxiv.org/pdf/1810.00826.pdf)  
 
@@ -13,21 +24,11 @@ These are some notes on papers I have read written in Chinese. I am planning to 
 
 (Metapath2vec) Scalable Representation Learning For Heterogeneous Networks [[My Notes]](https://dw505r6kni.feishu.cn/docs/doccneV23w2tqYjlJvIVLTcMcbc) [[Paper]](https://ericdongyx.github.io/papers/KDD17-dong-chawla-swami-metapath2vec.pdf)
 
-Attention Based Spatial-Temporal Graph Convolutional Networks for Traffic Flow Forecasting AAAI2019 [[My notes]]() [[Paper]]()
+Attention Based Spatial-Temporal Graph Convolutional Networks for Traffic Flow Forecasting AAAI2019 [[My notes]](https://dw505r6kni.feishu.cn/docs/doccnc6SDYlb1hHwnjUkrn6vEgg) [[Paper]](https://ojs.aaai.org//index.php/AAAI/article/view/3881 )
 
-Spatial-Temporal Synchronous Graph Convolutional Networks: A New Framework for Spatial-Temporal Network Data Forecasting AAAI2020 [[My notes]]() [[Paper]]()
+Spatial-Temporal Synchronous Graph Convolutional Networks: A New Framework for Spatial-Temporal Network Data Forecasting AAAI2020 [[My notes]](https://dw505r6kni.feishu.cn/docs/doccnVSOlwGUEiyTmnQ4ZJUEqRd) [[Paper]](https://ojs.aaai.org//index.php/AAAI/article/view/5438
+)
 
-Cluster-GCN: An Efficient Algorithm for Training Deep and Large Graph Convolutional Networks KDD2019 [[My notes]]() [[Paper]]()
-
-Bag of Tricks for Node Classification with Graph Neural Networks [[My notes]]() [[Paper]]()
-
-Training Graph Neural Networks with 1000 Layers [[My notes]](Training%20Graph%20Neural%20Networks%20with%201000%20Layers.pdf)  [[paper]](https://arxiv.org/abs/2106.07476)  
-
-Masked Label Prediction - Unified Message Passing Model for Semi-Supervised Classification [[My notes]](Masked%20Label%20Prediction_%20Unified%20Message%20Passing%20Model%20for%20Semi-Supervised%20Classification.pdf) [[paper]](https://arxiv.org/abs/2009.03509)  
-
-Adaptive Graph Diffusion Networks with Hop-wise Attention [[My notes]](https://dw505r6kni.feishu.cn/docs/doccnRGDkk6kaTVSPEk9ZUjHlXb?from=from_copylink)[[paper]](https://arxiv.org/abs/2012.15024) 
-
-Spectral Temporal Graph Neural Network for Multivariate Time-series Forecasting（NIPS 2020）[[My notes]](https://dw505r6kni.feishu.cn/docs/doccnO8M9iob0l7vKQYhfDhXuDh?from=from_copylink) [[Paper]](https://arxiv.org/pdf/2103.07719)
 #### To Be Continued...
 Be Your Own Teacher: Improve the Performance of Convolutional Neural Networks via Self Distillation [[Paper]](https://arxiv.org/abs/1905.08094)  
 
