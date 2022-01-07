@@ -10,7 +10,7 @@ GMAN：A Graph Multi-Attention Network for Traffic Prediction AAAI2020 [[My Note
 Cluster-GCN: An Efficient Algorithm for Training Deep and Large Graph Convolutional Networks KDD2019 [[My notes]](https://dw505r6kni.feishu.cn/docs/doccnh3w0FSuqE6UszAd6mwHlcf) [[Paper]](https://arxiv.org/pdf/1905.07953.pdf
 )
 
-Training Graph Neural Networks with 1000 Layers [[My notes]](Training%20Graph%20Neural%20Networks%20with%201000%20Layers.pdf)  [[paper]](https://arxiv.org/abs/2106.07476)  
+Training Graph Neural Networks with 1000 Layers ICML2021 [[My notes]](Training%20Graph%20Neural%20Networks%20with%201000%20Layers.pdf)  [[paper]](https://arxiv.org/abs/2106.07476)  
 
 Masked Label Prediction - Unified Message Passing Model for Semi-Supervised Classification [[My notes]](Masked%20Label%20Prediction_%20Unified%20Message%20Passing%20Model%20for%20Semi-Supervised%20Classification.pdf) [[paper]](https://arxiv.org/abs/2009.03509)  
 
