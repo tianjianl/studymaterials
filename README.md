@@ -5,6 +5,7 @@ This is a repository of my notes on ML/DL/OS/Programming/Algorithms
 #### Paper Notes
 These are some notes on papers I have read written in Chinese. I am planning to update the English versions in summer 2022.   
 
+GMAN：A Graph Multi-Attention Network for Traffic Prediction[[My Notes]](https://dw505r6kni.feishu.cn/docs/doccnJxTHYZ5eAGyxYijhyBHt1c)[[Paper]](https://arxiv.org/pdf/1911.08415.pdf)
 Cluster-GCN: An Efficient Algorithm for Training Deep and Large Graph Convolutional Networks KDD2019 [[My notes]](https://dw505r6kni.feishu.cn/docs/doccnh3w0FSuqE6UszAd6mwHlcf) [[Paper]](https://arxiv.org/pdf/1905.07953.pdf
 )
 
