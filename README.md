@@ -31,9 +31,21 @@ Attention Based Spatial-Temporal Graph Convolutional Networks for Traffic Flow F
 Spatial-Temporal Synchronous Graph Convolutional Networks: A New Framework for Spatial-Temporal Network Data Forecasting AAAI2020 [[My notes]](https://dw505r6kni.feishu.cn/docs/doccnVSOlwGUEiyTmnQ4ZJUEqRd) [[Paper]](https://ojs.aaai.org//index.php/AAAI/article/view/5438
 )
 
-#### To Be Continued...
+#### I'm working on the notes of 
 Be Your Own Teacher: Improve the Performance of Convolutional Neural Networks via Self Distillation [[Paper]](https://arxiv.org/abs/1905.08094)  
 
 GPT-GNN: Generative Pre-Training of Graph Neural Networks [[Paper]](https://arxiv.org/abs/2006.15437)
 
 Graph Neural Networks with Local Graph Parameters NIPS2021 [[Paper]](https://arxiv.org/abs/2106.06707)
+
+#### Recent Papers on Spatio-Temporal Forecasting 
+Traffic Flow Forecasting with Spatial-Temporal Graph Diffusion Network. AAAI 2021. [[repo]](https://github.com/jillbetty001/ST-GDN)  
+
+Hierarchical Graph Convolution Networks for Traffic Forecasting. AAAI 2021. [[repo]](https://github.com/guokan987/HGCN) 
+  
+FC-GAGA: Fully Connected Gated Graph Architecture for Spatio-Temporal Traffic Forecasting. AAAI 2021. [[repo]](https://github.com/boreshkinai/fc-gaga)  
+  
+Coupled Layer-wise Graph Convolution for Transportation Demand Prediction. AAAI 2021. [[repo]](https://github.com/Essaim/CGCDemandPrediction)  
+  
+Discrete Graph Structure Learning for Forecasting Multiple Time Series. ICLR 2021. [[repo]](https://github.com/chaoshangcs/GTS)  
+
