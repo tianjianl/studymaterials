@@ -18,7 +18,7 @@ Adaptive Graph Diffusion Networks with Hop-wise Attention [[My notes]](https://d
 
 Spectral Temporal Graph Neural Network for Multivariate Time-series Forecasting（NIPS 2020）[[My notes]](https://dw505r6kni.feishu.cn/docs/doccnO8M9iob0l7vKQYhfDhXuDh?from=from_copylink) [[Paper]](https://arxiv.org/pdf/2103.07719)
 
-(GIN) How Powerful Are Graph Neural Networks[[My notes]](https://dw505r6kni.feishu.cn/docs/doccnXTBk1WG2npJHqD1X3BfUMc) [[Papaer]](https://arxiv.org/pdf/1810.00826.pdf)  
+(GIN) How Powerful Are Graph Neural Networks[[My notes]](https://dw505r6kni.feishu.cn/docs/doccnXTBk1WG2npJHqD1X3BfUMc) [[Paper]](https://arxiv.org/pdf/1810.00826.pdf)  
 
 (STFGNN) Spatial-Temporal Fusion Graph Neural Networks for Traffic Flow Forecasting AAAI2021 [[My Notes]]() [[Paper]]()
 
