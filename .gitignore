@@ -8,3 +8,7 @@ jk.pdf
 google双塔模型.pdf
 google双塔模型.pdf
 google双塔模型.pdf
+*.npy
+*.pickle
+*.pyc
+*.pyc
