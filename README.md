@@ -31,8 +31,9 @@ Attention Based Spatial-Temporal Graph Convolutional Networks for Traffic Flow F
 Spatial-Temporal Synchronous Graph Convolutional Networks: A New Framework for Spatial-Temporal Network Data Forecasting AAAI2020 [[My notes]](https://dw505r6kni.feishu.cn/docs/doccnVSOlwGUEiyTmnQ4ZJUEqRd) [[Paper]](https://ojs.aaai.org//index.php/AAAI/article/view/5438
 )
 
+Be Your Own Teacher: Improve the Performance of Convolutional Neural Networks via Self Distillation[[My notes]](https://dw505r6kni.feishu.cn/docs/doccngTiAl3CHLkbiNVGyWvlxde) [[Paper]](https://arxiv.org/abs/1905.08094)  
+
 #### I'm working on the notes of 
-Be Your Own Teacher: Improve the Performance of Convolutional Neural Networks via Self Distillation [[Paper]](https://arxiv.org/abs/1905.08094)  
 
 GPT-GNN: Generative Pre-Training of Graph Neural Networks [[Paper]](https://arxiv.org/abs/2006.15437)
 
