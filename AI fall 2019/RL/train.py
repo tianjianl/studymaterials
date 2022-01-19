@@ -4,9 +4,9 @@ import sys
 import random
 
 def chooseFromDist(p):
-    #Given probability distribution p, return values from 1, 2 according to their probability
+    #Given probability distribution p, return values from 1, 2, ...len(p) according to their probability
     #input p should be a list of probabities
-    #p.sum should be 1
+    #np.sum(p) should be 1
     
     k = len(p) - 1 
     u = [0 for _ in range(k+1)]
@@ -22,7 +22,6 @@ def chooseFromDist(p):
     return k
 
 def check_chooseFromDist(p=[0.2,0.3,0.5]):
-    print("hello world")
     count = [0 for _ in range(len(p))]
     for i in range(10000):
         count[chooseFromDist(p)] += 1
