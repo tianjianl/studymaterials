@@ -44,7 +44,7 @@ class ModelEmbeddings(nn.Module):
         self.embed = nn.Embedding(len(self.vocab.char2id), 50)
         self.cnn = CNN(50, self.word_embed_size, 5, 1)
         self.highway = Highway(self.word_embed_size)
-        
+        self.dropout = nn.Dropout(p=0.3)       
         ### END YOUR CODE
 
     def forward(self, input):
@@ -62,15 +62,16 @@ class ModelEmbeddings(nn.Module):
         l, b, mword = input.shape
         x = input.view(l*b, mword)
         #print('l*b, mword', x.shape)
-        x = self.embed(x) #(l*b, mword, echar)
+        x = self.embed.forward(x) #(l*b, mword, echar)
         #print('l*b, mword, echar', x.shape)
         x = x.permute(0, 2, 1) #(l*b, echar, mword)
         #print('l*b, echar, mword', x.shape)
-        x = self.cnn(x) #(l*b, eword)
+        x = self.cnn.forward(x) #(l*b, eword)
         #print('l*b, eword', x.shape)
-        x = self.highway(x) #(l*b, eword)
+        x = self.highway.forward(x) #(l*b, eword)
         #print('l*b, eword', x.shape)
-        x = x.view(l, b, -1)
+        x = self.dropout(x) 
+        x = x.contiguous().view(l, b, -1)
         #print('l, b, eword', x.shape)
         return x
         ### END YOUR CODE

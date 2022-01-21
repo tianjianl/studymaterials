@@ -35,6 +35,14 @@ class CharDecoder(nn.Module):
         """
         ### YOUR CODE HERE for part 2a
         ### TODO - Implement the forward pass of the character decoder.
+        
+        #(l, b)
+        
+        x = self.decoderCharEmb(input) #(l, b, echar)
+        x, dec_hidden = self.charDecoder(x, dec_hidden)
+        s = self.char_output_projection(x)
+
+        return s, dec_hidden
 
         ### END YOUR CODE
 
@@ -53,7 +61,15 @@ class CharDecoder(nn.Module):
         ###       - char_sequence corresponds to the sequence x_1 ... x_{n+1} (e.g., <START>,m,u,s,i,c,<END>). Read the handout about how to construct input and target sequence of CharDecoderLSTM.
         ###       - Carefully read the documentation for nn.CrossEntropyLoss and our handout to see what this criterion have already included:
         ###             https://pytorch.org/docs/stable/nn.html#crossentropyloss
-
+        scores, dec_hidden = self.forward(char_sequence, dec_hidden)
+        #scores shape = (l, b, size)
+        batch_num = scores.shape[1]
+        for b in range(batch_num):
+            if b == 0:
+                loss = torch.nn.CrossEntropyLoss(reduction='sum')(scores[:, b, :], char_sequence[:, b])
+            else:
+                loss += torch.nn.CrossEntropyLoss(reduction='sum')(scores[:, b, :], char_sequence[:, b])
+        return loss
         ### END YOUR CODE
 
     def decode_greedy(self, initialStates, device, max_length=21):
@@ -75,6 +91,23 @@ class CharDecoder(nn.Module):
         ###      - You may find torch.argmax or torch.argmax useful
         ###      - We use curly brackets as start-of-word and end-of-word characters. That is, use the character '{' for <START> and '}' for <END>.
         ###        Their indices are self.target_vocab.start_of_word and self.target_vocab.end_of_word, respectively.
+        batch_size = initialStates[0].shape[1]
+        current_char = torch.tensor([[self.target_vocab.start_of_word] * batch_size], device=device)
+        dec_hidden = initialStates
+        outputs = [''] * batch_size
 
+        for _ in range(max_length):
+            s, dec_hidden = self.forward(input=current_char, dec_hidden=dec_hidden)
+            current_char = torch.argmax(s, dim=-1)
+            current_idx = current_char.tolist()[0]
+
+            for i, char_idx in enumerate(current_idx):
+                char = self.target_vocab.id2char[char_idx]
+                if char is not '}':
+                    outputs[i] += char
+                else:
+                    break
+
+        return outputs
         ### END YOUR CODE
 

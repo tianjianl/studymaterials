@@ -354,7 +354,7 @@ class NMT(nn.Module):
                 # Record output layer in case UNK was generated
                 if hyp_word == "<unk>":
                     hyp_word = "<unk>" + str(len(decoderStatesForUNKsHere))
-                    decoderStatesForUNKsHere.append(att_t[prev_hyp_id])
+                    decoderStatesForUNKsHere.append(att_t[int(prev_hyp_id)])
                 new_hyp_sent = hypotheses[int(prev_hyp_id)] + [hyp_word]
                 if hyp_word == '</s>':
                     completed_hypotheses.append(Hypothesis(value=new_hyp_sent[1:-1],

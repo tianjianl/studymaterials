@@ -11,9 +11,9 @@ import torch.nn as nn
 class CNN(nn.Module):
     # Remember to delete the above 'pass' after your implementation
     ### YOUR CODE HERE for part 1g
-    def __init__(self, c_in, c_out, k, pad):
+    def __init__(self, c_in, c_out, k, pad=1):
         super(CNN, self).__init__()
-        self.conv = nn.Conv1d(c_in, c_out, k, padding=pad)
+        self.conv = nn.Conv1d(c_in, c_out, k, padding=pad, bias=True)
     
     def forward(self, x_reshaped):
         x_conv = self.conv(x_reshaped)
