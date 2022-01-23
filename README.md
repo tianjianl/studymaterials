@@ -1,12 +1,6 @@
 ## About
 This is a repository of my notes on ML/DL/OS/Programming/Algorithms
 
-#### Courses
-
--Course Projects of NYU CSCI-UA-202 Operating Systems 
--Course Projects of NYU CSCI-UA-472 Artificial Intelligence 
--Course Projects of Stanford CS224n Natural Language Processing w/ Deep Learning
-
 #### Paper Notes
 These are some notes on papers I have read written in Chinese. I am planning to update the English versions in summer 2022.   
 
