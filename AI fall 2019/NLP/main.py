@@ -33,9 +33,6 @@ def main(sentence, ans):
     now = 0
     for child in t.children:
         now, ans = parse(child, now, ans)    
-                        
-    #getting all Transfers
-        
 
     return ans
         
@@ -49,9 +46,10 @@ def setPrint(s):
 
 
 if __name__ == '__main__':
-    
     answer_set = {}
     #default_sentence = 'S(NP(Name(Amy)),VP(Verb(gave),NP(Det(the),Adj(pretty),Noun(flowers)),PP(Prep(to),NP(Det(the),Adj(small),Noun(boy)))))'
     default_sentence = 'S(NP(Det(The),Adj(small),Noun(boy)),VP(Verb(bought),NP(Det(the),Adj(old),Noun(book)),PP(Prep(from),NP(Det(the),Adj(old),Noun(man)))))'  
+    
     answer_set = main(default_sentence, answer_set)
+    
     setPrint(answer_set) 
