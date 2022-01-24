@@ -54,9 +54,8 @@ def extractExpression(s, k):
 
 def printTree(T):
     print(T.root)
-    if len(T.children) != 0:
-        print(T.root+'s children are')
     for children in T.children:
+        print('now printing '+T.root+'s children')
         printTree(children)
 
 
