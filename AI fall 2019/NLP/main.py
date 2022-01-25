@@ -21,11 +21,6 @@ def parse(treenode, now, ans):
 
     return now, ans
 
-def parseTransfer(tree, ans):
-    #verb = {gave, got, bought, sold}
-    #prep = {for, from, to}
-    
-
 def main(sentence, ans):
     t, _ = extractExpression(sentence, 0)
     
