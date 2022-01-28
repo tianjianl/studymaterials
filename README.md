@@ -1,5 +1,8 @@
 ## About
-This is a repository of my notes on ML/DL/OS/Programming/Algorithms
+This is a repository of my study notes on ML/DL/OS/Programming/Algorithms
+
+#### Selected Courseworks
+
 
 #### Paper Notes
 These are some notes on papers I have read written in Chinese. I am planning to update the English versions in summer 2022.   
