@@ -1,5 +1,5 @@
 ### About
 
-This folder contains my homework solutions to Stanford cs224w: Machine learning with Graphs(Fall 2021).   
+This folder contains my homework solutions to Stanford cs224w: Machine learning with Graphs.   
 
-The course materials can be found at http://web.stanford.edu/class/cs224w/index.html
+The Fall 2021 course materials can be found at http://web.stanford.edu/class/cs224w/index.html
