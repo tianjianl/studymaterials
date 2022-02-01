@@ -5,6 +5,8 @@ This is a repository of my study notes on ML/DL/OS/Programming/Algorithms
 
 [Here](https://github.com/truthbutcher/studymaterials/tree/main/cs224n) are my solutions to the homework problems of Stanford CS224N:Natural Language Processing with Deep Learning 
 
+[Here](https://github.com/truthbutcher/studymaterials/tree/main/cs224w) are my solutions to the homework problems of Stanford CS224W:Machine Learning with Graphs 
+
 #### Paper Notes
 These are some notes on papers I have read written in Chinese. I am planning to update the English versions in summer 2022.   
 
