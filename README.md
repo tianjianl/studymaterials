@@ -2,6 +2,7 @@
 This is a repository of my study notes on ML/DL/OS/Programming/Algorithms
 
 #### Courses
+[Here](https://github.com/truthbutcher/studymaterials/tree/main/cs224n) are my course projects for NYU CSCI-UA.0472 Artificial Intelligence Fall 2019.   
 
 [Here](https://github.com/truthbutcher/studymaterials/tree/main/cs224n) are my solutions to the homework problems of Stanford CS224N:Natural Language Processing with Deep Learning 
 
