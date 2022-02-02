@@ -4,9 +4,9 @@ This is a repository of my study notes on ML/DL/OS/Programming/Algorithms
 #### Courses
 [Here](https://github.com/truthbutcher/studymaterials/tree/main/AI%20fall%202019) are my course projects for NYU CSCI-UA.0472 Artificial Intelligence Fall 2019.   
 
-[Here](https://github.com/truthbutcher/studymaterials/tree/main/cs224n) are my solutions to the homework problems of Stanford CS224N:Natural Language Processing with Deep Learning 
+[Here](https://github.com/truthbutcher/studymaterials/tree/main/cs224n) are my solutions to the problem sets of Stanford CS224N:Natural Language Processing with Deep Learning 
 
-[Here](https://github.com/truthbutcher/studymaterials/tree/main/cs224w) are my solutions to the homework problems of Stanford CS224W:Machine Learning with Graphs 
+[Here](https://github.com/truthbutcher/studymaterials/tree/main/cs224w) are my solutions to the problem sets of Stanford CS224W:Machine Learning with Graphs 
 
 #### Paper Notes
 These are some notes on papers I have read written in Chinese. I am planning to update the English versions in summer 2022.   
