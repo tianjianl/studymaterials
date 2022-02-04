@@ -45,7 +45,7 @@ Be Your Own Teacher: Improve the Performance of Convolutional Neural Networks vi
 Understanding Structural Vulnerability in Graph Convolutional Networks[[Paper]](https://arxiv.org/abs/2108.06280)
 
 #### Machine Learning Basics
-[SVM](SVM.pdf)  
+[Notes on SVM](SVM.pdf)  
 
 #### Recent Papers on Spatio-Temporal Forecasting 
 Traffic Flow Forecasting with Spatial-Temporal Graph Diffusion Network. AAAI 2021. [[repo]](https://github.com/jillbetty001/ST-GDN)  
