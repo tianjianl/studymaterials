@@ -51,7 +51,9 @@ Query2Box: Reasoning Over Knowledge Graphs In Vector Space Using Box Embeddings 
 
 Decision Trees  
 
-Optimization 
+Optimizers
+
+PCA & LDA
 
 #### Recent Papers on Spatio-Temporal Forecasting 
 Traffic Flow Forecasting with Spatial-Temporal Graph Diffusion Network. AAAI 2021. [[repo]](https://github.com/jillbetty001/ST-GDN)  
