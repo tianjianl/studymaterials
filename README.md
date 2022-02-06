@@ -42,10 +42,18 @@ Spatial-Temporal Synchronous Graph Convolutional Networks: A New Framework for S
 Be Your Own Teacher: Improve the Performance of Convolutional Neural Networks via Self Distillation[[My notes]](https://dw505r6kni.feishu.cn/docs/doccngTiAl3CHLkbiNVGyWvlxde) [[Paper]](https://arxiv.org/abs/1905.08094)  
 
 #### I'm working on the notes of 
-Understanding Structural Vulnerability in Graph Convolutional Networks[[Paper]](https://arxiv.org/abs/2108.06280)
+Understanding Structural Vulnerability in Graph Convolutional Networks [[Paper]](https://arxiv.org/abs/2108.06280)  
+
+Query2Box: Reasoning Over Knowledge Graphs In Vector Space Using Box Embeddings [[Paper]](https://arxiv.org/abs/2002.05969)
 
 #### Machine Learning Basics
 [Notes on SVM](SVM.pdf)  
+
+[Notes on Decision Trees](Decision_Trees.pdf)  
+
+Optimizers
+
+PCA & LDA
 
 #### Recent Papers on Spatio-Temporal Forecasting 
 Traffic Flow Forecasting with Spatial-Temporal Graph Diffusion Network. AAAI 2021. [[repo]](https://github.com/jillbetty001/ST-GDN)  
