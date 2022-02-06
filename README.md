@@ -49,7 +49,7 @@ Query2Box: Reasoning Over Knowledge Graphs In Vector Space Using Box Embeddings 
 #### Machine Learning Basics
 [Notes on SVM](SVM.pdf)  
 
-Decision Trees  
+[Notes on Decision Trees](Decision_Trees.pdf)  
 
 Optimizers
 
