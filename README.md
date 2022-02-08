@@ -59,18 +59,6 @@ Optimizers
 
 Bagging/Boosting/Stacking  
 
-#### NLP related notes by myself
-
-Word2Vec
-
-GloVe
-
-fastText
-
-Transformer and the attention mechanism
-
-BERT and its variants
-
 #### Recent Papers on Spatio-Temporal Forecasting 
 Traffic Flow Forecasting with Spatial-Temporal Graph Diffusion Network. AAAI 2021. [[repo]](https://github.com/jillbetty001/ST-GDN)  
 
