@@ -47,16 +47,29 @@ Understanding Structural Vulnerability in Graph Convolutional Networks [[Paper]]
 Query2Box: Reasoning Over Knowledge Graphs In Vector Space Using Box Embeddings [[Paper]](https://arxiv.org/abs/2002.05969)
 
 Kronecker Graphs: An Approach to Modeling Networks [[Paper]](https://cs.stanford.edu/people/jure/pubs/kronecker-jmlr10.pdf)
-#### Machine Learning Basics
-[Notes on SVM](SVM.pdf)  
 
-[Notes on Decision Trees](Decision_Trees.pdf)  
+#### Machine Learning notes by myself
+[SVM](SVM.pdf)  
+
+[Decision Trees](Decision_Trees.pdf)  
 
 Optimizers
 
-[PCA](Notes_on_PCA.pdf) & LDA
+[PCA](Notes_on_PCA.pdf)
 
 Bagging/Boosting/Stacking  
+
+#### NLP related notes by myself
+
+Word2Vec
+
+GloVe
+
+fastText
+
+Transformer and the attention mechanism
+
+BERT and its variants
 
 #### Recent Papers on Spatio-Temporal Forecasting 
 Traffic Flow Forecasting with Spatial-Temporal Graph Diffusion Network. AAAI 2021. [[repo]](https://github.com/jillbetty001/ST-GDN)  
