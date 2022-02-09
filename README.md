@@ -59,6 +59,8 @@ Optimizers
 
 Bagging/Boosting/Stacking  
 
+[Word2Vec Derivatives](a2.pdf)
+
 #### Recent Papers on Spatio-Temporal Forecasting 
 Traffic Flow Forecasting with Spatial-Temporal Graph Diffusion Network. AAAI 2021. [[repo]](https://github.com/jillbetty001/ST-GDN)  
 

@@ -3,3 +3,9 @@ This repo contains my solutions to the homework assignments of Stanford CS224N:N
 
 The Winter 2020 course website can be found at https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1204/index.html
 
+
+## Assignments
+
+The programming assignments are stored in `a*` folders
+
+[Word2Vec Derivatives](a2.pdf)
