@@ -20,6 +20,9 @@ Cluster-GCN: An Efficient Algorithm for Training Deep and Large Graph Convolutio
 
 Training Graph Neural Networks with 1000 Layers ICML2021 [[My notes]](Training%20Graph%20Neural%20Networks%20with%201000%20Layers.pdf)  [[paper]](https://arxiv.org/abs/2106.07476)  
 
+
+Query2Box: Reasoning Over Knowledge Graphs In Vector Space Using Box Embeddings [[Notes]](https://dw505r6kni.feishu.cn/docs/doccnaVMF3Rj7NtEJooKHdNsUGp) [[Paper]](https://arxiv.org/abs/2002.05969)
+
 Masked Label Prediction - Unified Message Passing Model for Semi-Supervised Classification [[My notes]](Masked%20Label%20Prediction_%20Unified%20Message%20Passing%20Model%20for%20Semi-Supervised%20Classification.pdf) [[paper]](https://arxiv.org/abs/2009.03509)  
 
 Adaptive Graph Diffusion Networks with Hop-wise Attention [[My notes]](https://dw505r6kni.feishu.cn/docs/doccnRGDkk6kaTVSPEk9ZUjHlXb?from=from_copylink)[[paper]](https://arxiv.org/abs/2012.15024) 
@@ -43,8 +46,6 @@ Be Your Own Teacher: Improve the Performance of Convolutional Neural Networks vi
 
 ### I am working on the notes of 
 Understanding Structural Vulnerability in Graph Convolutional Networks [[Paper]](https://arxiv.org/abs/2108.06280)  
-
-Query2Box: Reasoning Over Knowledge Graphs In Vector Space Using Box Embeddings [[Paper]](https://arxiv.org/abs/2002.05969)
 
 Kronecker Graphs: An Approach to Modeling Networks [[Paper]](https://cs.stanford.edu/people/jure/pubs/kronecker-jmlr10.pdf)
 
