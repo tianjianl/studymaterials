@@ -56,6 +56,8 @@ Kronecker Graphs: An Approach to Modeling Networks [[Paper]](https://cs.stanford
 
 Optimizers
 
+EM Algorithm 
+
 [PCA](Notes_on_PCA.pdf)
 
 Bagging/Boosting/Stacking  
