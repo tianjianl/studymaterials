@@ -10,7 +10,7 @@ This is a repository of my study notes on ML/DL/OS/Programming/Algorithms
 
 [Here](https://github.com/truthbutcher/studymaterials/tree/main/cs224w) are my solutions to the problem sets of Stanford CS224W:Machine Learning with Graphs 
 
-[Here](https://github.com/truthbutcher/studymaterials/tree/main/6.824) are my labs for MIT 6.824 Distributed Systems
+[Here](https://github.com/truthbutcher/studymaterials/tree/main/6.824) are my lab implementations for MIT 6.824 Distributed Systems
 
 ### Paper Notes
 These are some notes on papers I have read written in Chinese. I am planning to update the English versions in summer 2022.   
