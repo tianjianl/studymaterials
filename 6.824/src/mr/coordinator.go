@@ -85,6 +85,7 @@ func (c *Coordinator) ApplyForTask(args *ApplyForTaskArgs, reply *ApplyForTaskRe
                 c.now = ""
             }
         }
+        c.lock.Unlock()
     }
     //get a new task from unfinished tasks and write it into the reply 
     task, ok := <-c.unfinishedtasks
@@ -102,7 +103,6 @@ func (c *Coordinator) ApplyForTask(args *ApplyForTaskArgs, reply *ApplyForTaskRe
     reply.MapInputFile = task.MapInputFile
     reply.nMap = c.nMap
     reply.nReduce = c.nReduce
-
     return nil
 }
 
@@ -143,7 +143,7 @@ func (c *Coordinator) Done() bool {
 // nReduce is the number of reduce tasks to use.
 //
 func MakeCoordinator(files []string, nReduce int) *Coordinator {
-	c := Coordinator{
+    c := Coordinator{
         now: "Map",
         nMap: len(files),
         nReduce: nReduce,
@@ -164,7 +164,6 @@ func MakeCoordinator(files []string, nReduce int) *Coordinator {
         c.unfinishedtasks <- task
     }
     fmt.Println("Coordinator launched")
-	c.server()
     //find workers that did not finished the task before the deadline and reassign
     go func() {
         for {
@@ -173,7 +172,7 @@ func MakeCoordinator(files []string, nReduce int) *Coordinator {
             c.lock.Lock()
             for _, task := range c.tasks {
                 if task.WorkerID != "" && time.Now().After(task.Deadline) {
-                    fmt.Println("found task # %d past deadline, recycling it", task.Index)
+                    fmt.Println("found task",task.Index,"past deadline, recycling it")
                     task.WorkerID = ""
                     c.unfinishedtasks <- task
 
@@ -183,5 +182,6 @@ func MakeCoordinator(files []string, nReduce int) *Coordinator {
 
         }
     }()
+    c.server()
 	return &c
 }

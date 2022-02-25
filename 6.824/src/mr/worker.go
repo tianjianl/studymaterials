@@ -42,7 +42,7 @@ func ihash(key string) int {
 func Worker(mapf func(string, string) []KeyValue,
 	reducef func(string, []string) string) {
     id := strconv.Itoa(os.Getpid())
-    fmt.Println("worker %s started", id)
+    fmt.Println("worker",id,"started")
 
 	// Your worker implementation here.
     var lastTaskType string
@@ -64,8 +64,7 @@ func Worker(mapf func(string, string) []KeyValue,
             fmt.Println("MR task finished")
             break
         }
-
-        fmt.Println("Received %s task %d from coordinator", reply.TaskType, reply.TaskIndex)
+        fmt.Println("Worker",id,"Received",reply.TaskType,"task",reply.TaskIndex,"from coordinator")
         if reply.TaskType == "Map" {
                 file, _ := os.Open(reply.MapInputFile)
                 content, _ := ioutil.ReadAll(file)
@@ -73,11 +72,11 @@ func Worker(mapf func(string, string) []KeyValue,
                 kva := mapf(reply.MapInputFile, string(content))
                 hashedkva := make(map[int][]KeyValue)
                 for _, kv := range kva {
-                    hashed := ihash(kv.Key) % reply.nReduce
+                    hashed := ihash(kv.Key) % 10
                     hashedkva[hashed] = append(hashedkva[hashed], kv)
                 }
 
-                for i:=0; i<reply.nReduce; i++ {
+                for i:=0; i<10; i++ {
                     tmpfilename := "maptemp-"+strconv.Itoa(reply.TaskIndex)+"-"+strconv.Itoa(i)
                     ofile, _ := os.Create(tmpfilename)
                     for _, kv := range hashedkva[i]{
@@ -86,7 +85,7 @@ func Worker(mapf func(string, string) []KeyValue,
                 }
         } else if reply.TaskType == "Reduce" {
             var lines []string
-            for i:=0; i<=reply.nMap; i++ {
+            for i:=0; i<=8; i++ {
                 inputFile := "map-"+strconv.Itoa(i)+"-"+strconv.Itoa(reply.TaskIndex)
                 file, _ := os.Open(inputFile)
                 content, _ := ioutil.ReadAll(file)
@@ -95,12 +94,16 @@ func Worker(mapf func(string, string) []KeyValue,
             }
             var kva []KeyValue
             for _, line := range lines{
+                if strings.TrimSpace(line) == "" {
+                    continue
+                }
                 parts := strings.Split(line, "\t")
                 kva = append(kva, KeyValue{Key: parts[0], Value: parts[1]})
             }
             sort.Sort(ByKey(kva))
             tempofilename = "reducetemp-"+strconv.Itoa(reply.TaskIndex)
             ofile, _  := os.Create(tempofilename)
+
             i := 0
             for i < len(kva) {
                 j := i + 1
@@ -112,14 +115,14 @@ func Worker(mapf func(string, string) []KeyValue,
                     values = append(values, kva[k].Value)
                 }
                 output := reducef(kva[i].Key, values)
-                fmt.Fprintf(ofile, "%v %v\n", output)
+                fmt.Fprintf(ofile, "%v %v\n", kva[i].Key, output)
                 i = j
             }
             ofile.Close()
           }
           lastTaskType = reply.TaskType
           lastTaskIndex = reply.TaskIndex
-          fmt.Println("Finished %s task %d", reply.TaskType, reply.TaskIndex)
+          fmt.Println("Finished",reply.TaskType,"task",reply.TaskIndex)
     }
     // uncomment to send the Example RPC to the coordinator.
 	// CallExample()

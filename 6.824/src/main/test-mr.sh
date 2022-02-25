@@ -100,6 +100,7 @@ fi
 # wait for remaining workers and coordinator to exit.
 wait
 
+
 #########################################################
 # now indexer
 rm -f mr-*
@@ -318,7 +319,7 @@ fi
 
 #########################################################
 if [ $failed_any -eq 0 ]; then
-    echo '***' PASSED ALL TESTS
+    echo '***' PASSED ALL TESTS!!!!!
 else
     echo '***' FAILED SOME TESTS
     exit 1
