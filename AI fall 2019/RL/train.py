@@ -126,7 +126,9 @@ def prog3(NDice, NSides, LTarget, UTarget, NGames, M):
     LoseCount = np.zeros((LTarget, LTarget, NDice+1))
     WinCount = np.zeros((LTarget, LTarget, NDice+1))
     
-    for _ in range(NGames):
+    for i in range(NGames):
+        if i % 10000 == 0:
+            print(i)
         WinCount, LoseCount = PlayGame(NDice, NSides, LTarget, UTarget, LoseCount, WinCount, M)
 
     mat1, mat2 = extractAnswer(WinCount, LoseCount)
