@@ -1,7 +1,7 @@
 ## About
 This is a repository of my study notes on ML/DL/OS/Programming/Algorithms
 
-### Courses
+### Courseworks
 [Here](https://github.com/truthbutcher/studymaterials/tree/main/AI%20fall%202019) are my course projects for NYU CSCI-UA.0472 Artificial Intelligence Fall 2019. 
 
 [Here](https://github.com/truthbutcher/studymaterials/tree/main/os%20fall%202020) are my course projects for NYU CSCI-UA.0202 Operating Systems Fall 2020
@@ -56,9 +56,7 @@ Kronecker Graphs: An Approach to Modeling Networks [[Paper]](https://cs.stanford
 
 [Decision Trees](Decision_Trees.pdf)  
 
-Optimizers
-
-Activation Functions
+Optimizers & Activation Functions
 
 EM Algorithm 
 
@@ -69,6 +67,9 @@ Bagging/Boosting/Stacking
 [Word2Vec Derivatives](a2.pdf)
 
 From Transformers to Bert - The Attention Mechanism
+
+### Machine Learning Blog Posts by Others
+[LSTM](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 
 ### Recent Papers on Spatio-Temporal Forecasting 
 Traffic Flow Forecasting with Spatial-Temporal Graph Diffusion Network. AAAI 2021. [[repo]](https://github.com/jillbetty001/ST-GDN)  
