@@ -56,7 +56,7 @@ Kronecker Graphs: An Approach to Modeling Networks [[Paper]](https://cs.stanford
 
 [Decision Trees](Decision_Trees.pdf)  
 
-Optimizers & Activation Functions
+[Optimizers & Activation Functions](Activation_Functions.pdf)
 
 EM Algorithm 
 
