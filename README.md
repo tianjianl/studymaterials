@@ -66,7 +66,7 @@ Bagging/Boosting/Stacking
 
 [Word2Vec Derivatives](a2.pdf)
 
-From Transformers to Bert - The Attention Mechanism
+From Transformers to BERT - The Attention Mechanism
 
 ### Machine Learning Blog Posts by Others
 [LSTM](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
