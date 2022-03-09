@@ -68,7 +68,7 @@ Bagging/Boosting/Stacking
 
 From Transformers to BERT - The Attention Mechanism
 
-[Factorization Machines](FM.pdf)
+[FM and FFM](FM_FFM.pdf)
 
 ### Machine Learning Blog Posts by Others
 [LSTM](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
