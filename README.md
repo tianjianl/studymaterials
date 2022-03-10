@@ -12,6 +12,8 @@ This is a repository of my study notes on ML/DL/OS/Programming/Algorithms
 
 [Here](https://github.com/truthbutcher/studymaterials/tree/main/6.824) are my lab implementations for MIT 6.824 Distributed Systems
 
+[Stanford CS246:Mining Massive Datasets](https://web.stanford.edu/class/cs246/)
+
 ### Paper Notes
 These are some notes on papers I have read written in Chinese. I am planning to update the English versions in summer 2022.   
 
