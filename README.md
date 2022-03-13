@@ -83,6 +83,8 @@ From Transformers to BERT - The Attention Mechanism
 ### Machine Learning Blog Posts by Others
 [LSTM](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 
+[Attention?Attention](https://lilianweng.github.io/posts/2018-06-24-attention/)
+
 ### Recent Papers on Spatio-Temporal Forecasting 
 Traffic Flow Forecasting with Spatial-Temporal Graph Diffusion Network. AAAI 2021. [[repo]](https://github.com/jillbetty001/ST-GDN)  
 
