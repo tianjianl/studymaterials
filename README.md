@@ -12,11 +12,12 @@ This is a repository of my study notes on ML/DL/OS/Programming/Algorithms
 
 [Here](https://github.com/truthbutcher/studymaterials/tree/main/6.824) are my lab implementations for MIT 6.824 Distributed Systems
 
+[Here](https://github.com/truthbutcher/studymaterials/tree/main/cs246) are my solutions to the problem sets of 
+[Stanford CS246:Mining Massive Datasets](https://web.stanford.edu/class/cs246/)
+
 ---
 
 [Stanford CS144:Computer Networks](https://cs144.github.io/)
-
-[Stanford CS246:Mining Massive Datasets](https://web.stanford.edu/class/cs246/)
 
 Parallel Computing: [Stanford CS149 Assignments](https://gfxcourses.stanford.edu/cs149/fall21)(Fall 2021) [CMU 15-445 Videos](http://15418.courses.cs.cmu.edu/spring2016/lectures)(Spring 2016)
 
