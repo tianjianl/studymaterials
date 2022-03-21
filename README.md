@@ -17,7 +17,7 @@ This is a repository of my study notes on ML/DL/OS/Programming/Algorithms
 
 ---
 
-[Stanford CS144:Computer Networks](https://cs144.github.io/)
+[Stanford CS144 : Computer Networks](https://cs144.github.io/)
 
 Parallel Computing: [Stanford CS149 Assignments](https://gfxcourses.stanford.edu/cs149/fall21)(Fall 2021) [CMU 15-445 Videos](http://15418.courses.cs.cmu.edu/spring2016/lectures)(Spring 2016)
 
