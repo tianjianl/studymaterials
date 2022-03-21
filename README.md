@@ -6,22 +6,22 @@ This is a repository of my study notes on ML/DL/OS/Programming/Algorithms
 
 [Here](https://github.com/truthbutcher/studymaterials/tree/main/os%20fall%202020) are my course projects for NYU CSCI-UA.0202 Operating Systems Fall 2020
 
-[Here](https://github.com/truthbutcher/studymaterials/tree/main/cs224n) are my solutions to the problem sets of Stanford CS224N:Natural Language Processing with Deep Learning 
+[Here](https://github.com/truthbutcher/studymaterials/tree/main/cs224n) are my solutions to the problem sets of Stanford CS224N Natural Language Processing with Deep Learning 
 
-[Here](https://github.com/truthbutcher/studymaterials/tree/main/cs224w) are my solutions to the problem sets of Stanford CS224W:Machine Learning with Graphs 
+[Here](https://github.com/truthbutcher/studymaterials/tree/main/cs224w) are my solutions to the problem sets of Stanford CS224W Machine Learning with Graphs 
 
 [Here](https://github.com/truthbutcher/studymaterials/tree/main/6.824) are my lab implementations for MIT 6.824 Distributed Systems
 
 [Here](https://github.com/truthbutcher/studymaterials/tree/main/cs246) are my solutions to the problem sets of 
-[Stanford CS246:Mining Massive Datasets](https://web.stanford.edu/class/cs246/)
+[Stanford CS246 Mining Massive Datasets](https://web.stanford.edu/class/cs246/)
 
 ---
 
-[Stanford CS144:Computer Networks](https://cs144.github.io/)
+[Stanford CS144 Computer Networks](https://cs144.github.io/)
 
 Parallel Computing: [Stanford CS149 Assignments](https://gfxcourses.stanford.edu/cs149/fall21)(Fall 2021) [CMU 15-445 Videos](http://15418.courses.cs.cmu.edu/spring2016/lectures)(Spring 2016)
 
-[CMU 15-462 : Computer Graphics](http://15462.courses.cs.cmu.edu/fall2021/)(Fall 2021)
+[CMU 15-462 Computer Graphics](http://15462.courses.cs.cmu.edu/fall2021/)(Fall 2021)
 
 ---
 
