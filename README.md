@@ -23,6 +23,9 @@ Parallel Computing: [Stanford CS149 Assignments](https://gfxcourses.stanford.edu
 
 [CMU 15-462 Computer Graphics](http://15462.courses.cs.cmu.edu/fall2021/)(Fall 2021)
 
+[CMU 11-737 Multilingual NLP Course Assignments](http://www.phontron.com/class/multiling2022/assignments.html)(Spring 2022)
+
+
 ---
 
 ### Paper Notes
