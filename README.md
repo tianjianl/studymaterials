@@ -32,7 +32,7 @@ Parallel Computing: [Stanford CS149 Assignments](https://gfxcourses.stanford.edu
 ### Paper Notes
 These are some notes on papers I have read written in Chinese. I am planning to update the English versions in summer 2022.   
 
-[NLP Notes](https://github.com/truthbutcher/studymaterials/blob/main/Paper_Notes___KEG_Group.pdf)
+[NLP Notes(Updated at March 23, 2022)](https://github.com/truthbutcher/studymaterials/blob/main/Paper_Notes___KEG_Group.pdf)
 
 GMAN：A Graph Multi-Attention Network for Traffic Prediction AAAI2020 [[My Notes]](https://dw505r6kni.feishu.cn/docs/doccnJxTHYZ5eAGyxYijhyBHt1c)[[Paper]](https://arxiv.org/pdf/1911.08415.pdf)  
 
