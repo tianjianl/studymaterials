@@ -17,15 +17,15 @@ This is a repository of my study notes on ML/DL/OS/Programming/Algorithms
 
 ---
 
-[Stanford CS144 Computer Networks](https://cs144.github.io/)
+[Stanford CS144 Computer Networks](https://cs144.github.io/) [Video Recordings](https://www.youtube.com/watch?v=RxMaPiVYzII&list=PL6RdenZrxrw9inR-IJv-erlOKRHjymxMN&index=35)
 
-Parallel Computing: [Stanford CS149 Assignments](https://gfxcourses.stanford.edu/cs149/fall21)(Fall 2021) [CMU 15-445 Videos](http://15418.courses.cs.cmu.edu/spring2016/lectures)(Spring 2016)
+Parallel Computing: [Stanford CS149 Assignments](https://gfxcourses.stanford.edu/cs149/fall21)(Fall 2021) [CMU 15-445 Video Recordings](http://15418.courses.cs.cmu.edu/spring2016/lectures)(Spring 2016)
 
 [CMU 15-462 Computer Graphics](http://15462.courses.cs.cmu.edu/fall2021/)(Fall 2021)
 
 [CMU 11-737 Multilingual NLP Course Assignments](http://www.phontron.com/class/multiling2022/assignments.html)(Spring 2022)
 
-[CMU 11-711 Advanced NLP](http://www.phontron.com/class/anlp2021/) and its [course videos](https://www.youtube.com/watch?v=pGC-QiNbuwA&list=PL8PYTP1V4I8AYSXn_GKVgwXVluCT9chJ6)(Fall 2021)
+[CMU 11-711 Advanced NLP](http://www.phontron.com/class/anlp2021/) and its [Video Recordings](https://www.youtube.com/watch?v=pGC-QiNbuwA&list=PL8PYTP1V4I8AYSXn_GKVgwXVluCT9chJ6)(Fall 2021)
 
 ---
 
