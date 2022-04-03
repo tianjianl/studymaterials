@@ -17,9 +17,11 @@ This is a repository of my study notes on ML/DL/OS/Programming/Algorithms
 
 ---
 
-Stanford CS144 Computer Networks [Website](https://cs144.github.io/) & [Video Recordings](https://www.youtube.com/watch?v=RxMaPiVYzII&list=PL6RdenZrxrw9inR-IJv-erlOKRHjymxMN&index=35)
+Stanford CS144 : Computer Networks [Website](https://cs144.github.io/) & [Video Recordings](https://www.youtube.com/watch?v=RxMaPiVYzII&list=PL6RdenZrxrw9inR-IJv-erlOKRHjymxMN&index=35)
 
 Parallel Computing: [Stanford CS149 Assignments](https://gfxcourses.stanford.edu/cs149/fall21)(Fall 2021) [CMU 15-445 Video Recordings](http://15418.courses.cs.cmu.edu/spring2016/lectures)(Spring 2016)
+
+[MIT 18.404J/6.840J : Theory of Computation](https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/)(Fall 2020)
 
 [CMU 15-462 Computer Graphics](http://15462.courses.cs.cmu.edu/fall2021/)(Fall 2021)
 
