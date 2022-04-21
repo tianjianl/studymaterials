@@ -23,6 +23,8 @@ Parallel Computing: [Stanford CS149 Assignments](https://gfxcourses.stanford.edu
 
 [MIT 18.404J/6.840J : Theory of Computation](https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/)(Fall 2020)
 
+CMU 15-213  Introduction to Computer Systems [Video Recordings](https://scs.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?#folderQuery=%2215213%22&folderID=%22b96d90ae-9871-4fae-91e2-b1627b43e25e%22&sortColumn=1&sortAscending=true) and its [Lab Assignments](http://csapp.cs.cmu.edu/3e/labs.html)
+
 [CMU 15-462 Computer Graphics](http://15462.courses.cs.cmu.edu/fall2021/)(Fall 2021)
 
 [CMU 11-737 Multilingual NLP Course Assignments](http://www.phontron.com/class/multiling2022/assignments.html)(Spring 2022)
