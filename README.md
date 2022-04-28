@@ -33,6 +33,9 @@ CMU 15-213  Introduction to Computer Systems [Video Recordings](https://scs.host
 
 [CMU 11-711 Advanced NLP](http://www.phontron.com/class/anlp2021/) and its [Video Recordings](https://www.youtube.com/watch?v=pGC-QiNbuwA&list=PL8PYTP1V4I8AYSXn_GKVgwXVluCT9chJ6)(Fall 2021)
 
+[CMU 11-777 Multimodel Machine Learning](https://cmu-multicomp-lab.github.io/mmml-course/fall2020/) 
+
+
 ---
 
 ### Paper Notes
