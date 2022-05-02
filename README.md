@@ -102,17 +102,6 @@ From Transformers to BERT - The Attention Mechanism
 
 [Attention?Attention](https://lilianweng.github.io/posts/2018-06-24-attention/)
 
-### Recent Papers on Spatio-Temporal Forecasting 
-Traffic Flow Forecasting with Spatial-Temporal Graph Diffusion Network. AAAI 2021. [[repo]](https://github.com/jillbetty001/ST-GDN)  
-
-Hierarchical Graph Convolution Networks for Traffic Forecasting. AAAI 2021. [[repo]](https://github.com/guokan987/HGCN) 
-  
-FC-GAGA: Fully Connected Gated Graph Architecture for Spatio-Temporal Traffic Forecasting. AAAI 2021. [[repo]](https://github.com/boreshkinai/fc-gaga)  
-  
-Coupled Layer-wise Graph Convolution for Transportation Demand Prediction. AAAI 2021. [[repo]](https://github.com/Essaim/CGCDemandPrediction)  
-  
-Discrete Graph Structure Learning for Forecasting Multiple Time Series. ICLR 2021. [[repo]](https://github.com/chaoshangcs/GTS)  
-
 ### Papers on Recommender Systems that I found very insightful 
 
 #### Factorization Machines 
