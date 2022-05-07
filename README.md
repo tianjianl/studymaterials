@@ -10,8 +10,6 @@ This is a repository of my study notes on ML/DL/OS/Programming/Algorithms
 
 [Here](https://github.com/truthbutcher/studymaterials/tree/main/cs224w) are my solutions to the problem sets of Stanford CS224W Machine Learning with Graphs 
 
-[Here](https://github.com/truthbutcher/studymaterials/tree/main/6.824) are my lab implementations for [MIT 6.824 Distributed Systems](https://pdos.csail.mit.edu/6.824/schedule.html)
-
 [Here](https://github.com/truthbutcher/studymaterials/tree/main/cs246) are my solutions to the problem sets of 
 [Stanford CS246 Mining Massive Datasets](https://web.stanford.edu/class/cs246/)
 
