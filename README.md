@@ -21,6 +21,8 @@ Stanford CS234 Reinforcement Learning(Winter 2019) [Website](https://web.stanfor
 
 Parallel Computing: [Stanford CS149 Assignments](https://gfxcourses.stanford.edu/cs149/fall21)(Fall 2021) [CMU 15-445 Video Recordings](http://15418.courses.cs.cmu.edu/spring2016/lectures)(Spring 2016)
 
+UIUC ECE408 Applied Parallel Programming [Website](https://wiki.illinois.edu/wiki/display/ECE408/Class+Schedule) - A course mainly focusing on CUDA programming. 
+
 [MIT 18.404J/6.840J : Theory of Computation](https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/)(Fall 2020)
 
 CMU 15-213  Introduction to Computer Systems [Video Recordings](https://scs.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?#folderQuery=%2215213%22&folderID=%22b96d90ae-9871-4fae-91e2-b1627b43e25e%22&sortColumn=1&sortAscending=true) and its [Lab Assignments](http://csapp.cs.cmu.edu/3e/labs.html)
