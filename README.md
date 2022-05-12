@@ -19,9 +19,8 @@ Stanford CS144 : Computer Networks [Website](https://cs144.github.io/) & [Video 
 
 Stanford CS234 Reinforcement Learning(Winter 2019) [Website](https://web.stanford.edu/class/cs234/CS234Win2019/schedule.html) & [Video Recordings](https://www.youtube.com/watch?v=FgzM3zpZ55o&list=PLoROMvodv4rOSOPzutgyCTapiGlY2Nd8u)
 
-Parallel Computing: [Stanford CS149 Assignments](https://gfxcourses.stanford.edu/cs149/fall21)(Fall 2021) [CMU 15-445 Video Recordings](http://15418.courses.cs.cmu.edu/spring2016/lectures)(Spring 2016)
-
-UIUC ECE408 Applied Parallel Programming [Website](https://wiki.illinois.edu/wiki/display/ECE408/Class+Schedule) - A course mainly focusing on CUDA programming. 
+UIUC ECE408 Applied Parallel Programming [Website](https://wiki.illinois.edu/wiki/display/ECE408/Class+Schedule)
+- A course mainly focusing on CUDA programming 
 
 [MIT 18.404J/6.840J : Theory of Computation](https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/)(Fall 2020)
 
@@ -32,6 +31,14 @@ CMU 15-213  Introduction to Computer Systems [Video Recordings](https://scs.host
 [CMU 11-711 Advanced NLP](http://www.phontron.com/class/anlp2021/) and its [Video Recordings](https://www.youtube.com/watch?v=pGC-QiNbuwA&list=PL8PYTP1V4I8AYSXn_GKVgwXVluCT9chJ6)(Fall 2021)
 
 [CMU 11-777 Multimodel Machine Learning](https://cmu-multicomp-lab.github.io/mmml-course/fall2020/) (Fall 2020)
+
+---
+Subjects that are not strongly related to my research goals:
+
+Parallel Computing: 
+[Stanford CS149 Assignments](https://gfxcourses.stanford.edu/cs149/fall21)(Fall 2021) [
+CMU 15-445 Video Recordings](http://15418.courses.cs.cmu.edu/spring2016/lectures)(Spring 2016)
+- A course on more general topics of parallel computing 
 
 Stanford CS143: Compilers [Website](https://web.stanford.edu/class/cs143/)
 
