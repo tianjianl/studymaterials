@@ -22,8 +22,6 @@ Stanford CS234 Reinforcement Learning(Winter 2019) [Website](https://web.stanfor
 UIUC ECE408 Applied Parallel Programming [Website](https://wiki.illinois.edu/wiki/display/ECE408/Class+Schedule)
 - A course mainly focusing on CUDA programming 
 
-[MIT 18.404J/6.840J : Theory of Computation](https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/)(Fall 2020)
-
 CMU 15-213  Introduction to Computer Systems [Video Recordings](https://scs.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?#folderQuery=%2215213%22&folderID=%22b96d90ae-9871-4fae-91e2-b1627b43e25e%22&sortColumn=1&sortAscending=true) and its [Lab Assignments](http://csapp.cs.cmu.edu/3e/labs.html)
 
 [CMU 11-737 Multilingual NLP Course Assignments](http://www.phontron.com/class/multiling2022/assignments.html)(Spring 2022)
@@ -31,6 +29,10 @@ CMU 15-213  Introduction to Computer Systems [Video Recordings](https://scs.host
 [CMU 11-711 Advanced NLP](http://www.phontron.com/class/anlp2021/) and its [Video Recordings](https://www.youtube.com/watch?v=pGC-QiNbuwA&list=PL8PYTP1V4I8AYSXn_GKVgwXVluCT9chJ6)(Fall 2021)
 
 [CMU 11-777 Multimodel Machine Learning](https://cmu-multicomp-lab.github.io/mmml-course/fall2020/) (Fall 2020)
+
+[MIT 6.S081 Operating Systems Engineering](https://pdos.csail.mit.edu/6.S081/2021/schedule.html)(Fall 2021)
+
+[MIT 18.404J/6.840J : Theory of Computation](https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/)(Fall 2020)
 
 ---
 Subjects that are not strongly related to my research goals:
