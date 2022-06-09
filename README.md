@@ -49,7 +49,9 @@ Stanford CS143: Compilers [Website](https://web.stanford.edu/class/cs143/)
 ---
 
 ### Paper Notes
-These are some notes on papers I have read written in Chinese. I am planning to update the English versions in summer 2022. 
+These are some notes on papers I have read written in Chinese. I am planning to update the English versions in summer 2022.
+
+[Slides on Multilingual GLM](https://github.com/truthbutcher/studymaterials/blob/main/MultiGLM.pdf)
 
 [Case Studies on State-of-the-Art Retrieval Based Language Models](https://github.com/truthbutcher/studymaterials/blob/main/Retrieval_LM.pdf)
 
