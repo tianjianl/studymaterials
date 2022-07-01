@@ -50,7 +50,7 @@ Stanford CS143: Compilers [Website](https://web.stanford.edu/class/cs143/)
 
 ### Paper Notes
 
-[Meta-Training in NLP](https://github.com/truthbutcher/studymaterials/blob/main/Meta_Training_in_NLP_Jun30.pdf)
+[Meta-Training in NLP](https://github.com/truthbutcher/studymaterials/blob/main/Meta_Training_in_NLP_July_1.pdf)
 
 [Slides on Multilingual GLM](https://github.com/truthbutcher/studymaterials/blob/main/MultiGLM.pdf)
 
