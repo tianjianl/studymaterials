@@ -3,6 +3,8 @@ This is a repository of my study notes on ML/DL/OS/Programming/Algorithms
 
 ### Paper Notes
 
+[A Brief Introduction to Large Multilingual Langauge Models](https://github.com/truthbutcher/studymaterials/blob/main/large.pdf)
+
 [Meta-Training in NLP](https://github.com/truthbutcher/studymaterials/blob/main/meta-nlp.pdf)
 
 [Slides on Multilingual GLM](https://github.com/truthbutcher/studymaterials/blob/main/MultiGLM.pdf)
