@@ -1,54 +1,9 @@
 ## About
 This is a repository of my study notes on ML/DL/OS/Programming/Algorithms
 
-### Courseworks
-[Here](https://github.com/truthbutcher/studymaterials/tree/main/AI%20fall%202019) are my course projects for NYU CSCI-UA.0472 Artificial Intelligence Fall 2019. 
-
-[Here](https://github.com/truthbutcher/studymaterials/tree/main/os%20fall%202020) are my course projects for NYU CSCI-UA.0202 Operating Systems Fall 2020
-
-[Here](https://github.com/truthbutcher/studymaterials/tree/main/cs224n) are my solutions to the problem sets of Stanford CS224N Natural Language Processing with Deep Learning 
-
-[Here](https://github.com/truthbutcher/studymaterials/tree/main/cs224w) are my solutions to the problem sets of Stanford CS224W Machine Learning with Graphs 
-
-[Here](https://github.com/truthbutcher/studymaterials/tree/main/cs246) are my solutions to the problem sets of 
-[Stanford CS246 Mining Massive Datasets](https://web.stanford.edu/class/cs246/)
-
----
-
-Stanford CS144 : Computer Networks [Website](https://cs144.github.io/) & [Video Recordings](https://www.youtube.com/watch?v=RxMaPiVYzII&list=PL6RdenZrxrw9inR-IJv-erlOKRHjymxMN&index=35)
-
-Stanford CS234 Reinforcement Learning(Winter 2019) [Website](https://web.stanford.edu/class/cs234/CS234Win2019/schedule.html) & [Video Recordings](https://www.youtube.com/watch?v=FgzM3zpZ55o&list=PLoROMvodv4rOSOPzutgyCTapiGlY2Nd8u)
-
-UIUC ECE408 Applied Parallel Programming [Website](https://wiki.illinois.edu/wiki/display/ECE408/Class+Schedule)
-- A course mainly focusing on CUDA programming 
-
-CMU 15-213  Introduction to Computer Systems [Video Recordings](https://scs.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?#folderQuery=%2215213%22&folderID=%22b96d90ae-9871-4fae-91e2-b1627b43e25e%22&sortColumn=1&sortAscending=true) and its [Lab Assignments](http://csapp.cs.cmu.edu/3e/labs.html)
-
-[CMU 11-737 Multilingual NLP Course Assignments](http://www.phontron.com/class/multiling2022/assignments.html)(Spring 2022)
-
-[CMU 11-711 Advanced NLP](http://www.phontron.com/class/anlp2021/) and its [Video Recordings](https://www.youtube.com/watch?v=pGC-QiNbuwA&list=PL8PYTP1V4I8AYSXn_GKVgwXVluCT9chJ6)(Fall 2021)
-
-[CMU 11-777 Multimodel Machine Learning](https://cmu-multicomp-lab.github.io/mmml-course/fall2020/) (Fall 2020)
-
-[MIT 6.S081 Operating Systems Engineering](https://pdos.csail.mit.edu/6.S081/2021/schedule.html)(Fall 2021)
-
-[MIT 18.404J/6.840J : Theory of Computation](https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/)(Fall 2020)
-
----
-Subjects that are not strongly related to my research goals:
-
-Parallel Computing: 
-[Stanford CS149 Assignments](https://gfxcourses.stanford.edu/cs149/fall21)(Fall 2021) [
-CMU 15-445 Video Recordings](http://15418.courses.cs.cmu.edu/spring2016/lectures)(Spring 2016)
-- A course on more general topics of parallel computing 
-
-Stanford CS143: Compilers [Website](https://web.stanford.edu/class/cs143/)
-
-[CMU 15-462 Computer Graphics](http://15462.courses.cs.cmu.edu/fall2021/)(Fall 2021)
-
----
-
 ### Paper Notes
+
+[A Brief Introduction to Large Multilingual Langauge Models](https://github.com/truthbutcher/studymaterials/blob/main/large.pdf)
 
 [Meta-Training in NLP](https://github.com/truthbutcher/studymaterials/blob/main/meta-nlp.pdf)
 
@@ -145,6 +100,53 @@ Recommender Systems](https://arxiv.org/pdf/1806.01973.pdf)
 
 [Billion-scale Commodity Embedding for E-commerce
 Recommendation in Alibaba](https://arxiv.org/pdf/1803.02349.pdf)
+
+### Courseworks
+[Here](https://github.com/truthbutcher/studymaterials/tree/main/AI%20fall%202019) are my course projects for NYU CSCI-UA.0472 Artificial Intelligence Fall 2019. 
+
+[Here](https://github.com/truthbutcher/studymaterials/tree/main/os%20fall%202020) are my course projects for NYU CSCI-UA.0202 Operating Systems Fall 2020
+
+[Here](https://github.com/truthbutcher/studymaterials/tree/main/cs224n) are my solutions to the problem sets of Stanford CS224N Natural Language Processing with Deep Learning 
+
+[Here](https://github.com/truthbutcher/studymaterials/tree/main/cs224w) are my solutions to the problem sets of Stanford CS224W Machine Learning with Graphs 
+
+[Here](https://github.com/truthbutcher/studymaterials/tree/main/cs246) are my solutions to the problem sets of 
+[Stanford CS246 Mining Massive Datasets](https://web.stanford.edu/class/cs246/)
+
+---
+
+Stanford CS144 : Computer Networks [Website](https://cs144.github.io/) & [Video Recordings](https://www.youtube.com/watch?v=RxMaPiVYzII&list=PL6RdenZrxrw9inR-IJv-erlOKRHjymxMN&index=35)
+
+Stanford CS234 Reinforcement Learning(Winter 2019) [Website](https://web.stanford.edu/class/cs234/CS234Win2019/schedule.html) & [Video Recordings](https://www.youtube.com/watch?v=FgzM3zpZ55o&list=PLoROMvodv4rOSOPzutgyCTapiGlY2Nd8u)
+
+UIUC ECE408 Applied Parallel Programming [Website](https://wiki.illinois.edu/wiki/display/ECE408/Class+Schedule)
+- A course mainly focusing on CUDA programming 
+
+CMU 15-213  Introduction to Computer Systems [Video Recordings](https://scs.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?#folderQuery=%2215213%22&folderID=%22b96d90ae-9871-4fae-91e2-b1627b43e25e%22&sortColumn=1&sortAscending=true) and its [Lab Assignments](http://csapp.cs.cmu.edu/3e/labs.html)
+
+[CMU 11-737 Multilingual NLP Course Assignments](http://www.phontron.com/class/multiling2022/assignments.html)(Spring 2022)
+
+[CMU 11-711 Advanced NLP](http://www.phontron.com/class/anlp2021/) and its [Video Recordings](https://www.youtube.com/watch?v=pGC-QiNbuwA&list=PL8PYTP1V4I8AYSXn_GKVgwXVluCT9chJ6)(Fall 2021)
+
+[CMU 11-777 Multimodel Machine Learning](https://cmu-multicomp-lab.github.io/mmml-course/fall2020/) (Fall 2020)
+
+[MIT 6.S081 Operating Systems Engineering](https://pdos.csail.mit.edu/6.S081/2021/schedule.html)(Fall 2021)
+
+[MIT 18.404J/6.840J : Theory of Computation](https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/)(Fall 2020)
+
+---
+Subjects that are not strongly related to my research goals:
+
+Parallel Computing: 
+[Stanford CS149 Assignments](https://gfxcourses.stanford.edu/cs149/fall21)(Fall 2021) [
+CMU 15-445 Video Recordings](http://15418.courses.cs.cmu.edu/spring2016/lectures)(Spring 2016)
+- A course on more general topics of parallel computing 
+
+Stanford CS143: Compilers [Website](https://web.stanford.edu/class/cs143/)
+
+[CMU 15-462 Computer Graphics](http://15462.courses.cs.cmu.edu/fall2021/)(Fall 2021)
+
+---
 
 #### Others
 [On Sampled Metrics for Item Recommendation KDD2020](https://www.kdd.org/kdd2020/accepted-papers/view/on-sampled-metrics-for-item-recommendation)
