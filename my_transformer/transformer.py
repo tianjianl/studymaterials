@@ -55,17 +55,13 @@ class Encoder(nn.Module):
         return self.norm(x)
         
 class LayerNorm(nn.Module):
-    """
-    Standard LayerNorm Module
-    """
-
+    
     def __init__(self, features, eps=1e-6):
         super(LayerNorm, self).__init__()
         self.a_2 = nn.Parameter(torch.ones(features))
         self.b_2 = nn.Parameter(torch.zeros(features))
         self.eps = eps
-
-
+    
     def forward(self, x):
         mean = x.mean(-1, keepdim=True)
         std = x.std(-1, keepdim=True)
@@ -73,5 +69,19 @@ class LayerNorm(nn.Module):
 
 
 
+class SubLayerConnection(nn.Module):
+    """
+    Residual Connection
+    """
 
+    def __init__(self, size, dropout):
+        super(SubLayerConnection, self).__init__()
+        self.norm = LayerNorm(size)
+        self.dropout = nn.Dropout(dropout)
+
+    def forward(self, x, sublayer):
         
+        return x + self.dropout(sublayer(self.norm(x)))
+
+
+
