@@ -1,1 +1,0 @@
-What is RMSprop trying to do on a conceptual level? RMSprop is trying to normalize each element of the update so that no one element is excessively large or small.

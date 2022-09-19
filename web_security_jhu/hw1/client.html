@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <canvas
+      id="myCanvas"
+      width="580"
+      height="580"
+      style="border: 1px solid #d3d3d3;"
+    >
+    </canvas>
+
+    <script>
+      const ws = new WebSocket("ws://localhost:8080");
+      
+      ws.addEventListener("open", () =>{
+        console.log("We are connected");
+        //ws.send("How are you?");
+      });
+
+      var c = document.getElementById("myCanvas");
+      var ctx = c.getContext("2d");
+      
+      ws.addEventListener('message', function (event) {
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        var obj = JSON.parse(event.data);
+        if(obj.type == 'move'){
+            if(obj.res == true){
+                var x = obj.x;
+                var y = obj.y;
+                var color = obj.color;
+                ctx.beginPath();
+                ctx.arc(x, y, 12, 0, 2 * Math.PI);
+                ctx.fillStyle = color;
+                ctx.fill();
+                ctx.lineWidth = 1;
+                ctx.strokeStyle = "#003300";
+                ctx.stroke(); 
+            }
+            else{
+                alert("invalid move");
+            }
+        }
+        else if(obj.type == 'winner') {
+            if(obj.who == 1) {
+                alert("Black wins");
+            }
+            else{
+                alert("White wins");
+            }
+        }
+      }); 
+      
+     
+      for (let i = 0; i < 19; i++) {
+        ctx.moveTo(i * 30, 0);
+        ctx.lineTo(i * 30, 540);
+        ctx.stroke();
+
+        ctx.moveTo(0, i * 30);
+        ctx.lineTo(540, i * 30);
+        ctx.stroke();
+      }
+      var movecount = 0;
+      var grid = new Array(19);
+      for (let i = 0; i < grid.length; i++) {
+        grid[i] = new Array(19);
+      }
+      // null = no stone, 0 = white, 1 = black
+
+      function getCursorPosition(canvas, event) {
+        const rect = canvas.getBoundingClientRect();
+        x = event.clientX - rect.left;
+        y = event.clientY - rect.top;
+
+        //console.log("x: " + x + " y: " + y);
+        if ((x % 30 < 10 || x % 30 > 20) && (y % 30 < 10 || y % 30 > 20)) {
+          if (x % 30 < 10) {
+            x = x - (x % 30);
+          } else {
+            x = x + 30 - (x % 30);
+          }
+          if (y % 30 < 10) {
+            y = y - (y % 30);
+          } else {
+            y = y + 30 - (y % 30);
+          }
+          const obj = {x: x, y: y};
+          ws.send(JSON.stringify(obj));
+          console.log("a: " + x + " b: " + y);
+        }
+        //black goes first
+      }
+
+      const canvas = document.querySelector("canvas");
+      canvas.addEventListener("mousedown", function (e) {
+        getCursorPosition(canvas, e);
+      });
+    </script>
+  </body>
+</html>
