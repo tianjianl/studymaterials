@@ -91,7 +91,7 @@ wss.on("connection", ws => {
               console.log('placed stone at ' + x + ' y = '+y);
             } else {
               grid[x / 30][y / 30] = 0;
-              arr[x/30 + y/30] = 0;
+              arr[x/30 + y/30*19] = 0;
             }
             movecount++;
             var color = 'white';
