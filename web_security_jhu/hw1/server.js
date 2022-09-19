@@ -2,7 +2,7 @@
 const WebSocketServer = require('ws');
  
 // Creating a new websocket server
-const wss = new WebSocketServer.Server({ port: 8080 })
+const wss = new WebSocketServer.Server({ port: 3154 })
  
 var movecount = 0;
 var grid = new Array(19);
@@ -112,13 +112,8 @@ wss.on("connection", ws => {
     });
     
     ws.on("close", () => {
-        console.log("the client has disconnected");
+        console.log("client disconnected");
     });
-    // handling client connection error
-    ws.onerror = function () {
-        console.log("Some Error occurred")
-    }
-    
 });
 
 wss.broadcast = function broadcast(msg) {
@@ -128,4 +123,4 @@ wss.broadcast = function broadcast(msg) {
     });
 };
     
-console.log("The WebSocket server is running on port 8080");
+console.log("The WebSocket server is running on port 3154");
