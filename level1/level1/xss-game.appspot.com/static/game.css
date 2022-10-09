@@ -1,0 +1,266 @@
+@import url('../../fonts.googleapis.com/css_family_Audiowide.css');
+/* Main styles */
+body {
+  background: url('./game-bg.png') #1a1a1a;
+  color: #eee;
+  font-family: Calibri, Helvetica, sans-serif;
+
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Audiowide', cursive;
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: white;
+}
+
+#topbar {
+  background: url('./topbar2.png') 0 0 no-repeat;
+  padding: 0;
+  width: 702px;
+  height: 26px;
+  margin: 0 auto; 
+  border: 1px solid #333;
+  border-radius: 8px 4px 0 0;
+
+}
+
+#level-title {
+
+  background-image: url('./gradient.png');
+  padding: 8px 2px 6px;
+  border-top: 5px solid #0a0a0a;
+  margin-top: 0px;
+  border-bottom: 2px solid #222;
+
+}
+
+#instructions {
+  width: 720px;
+  margin: 0 auto;
+  font-family: "Andale Mono", monospace;
+}
+
+
+.example-controls { 
+  margin: 0 auto;
+  background-color: #f4f4f4; 
+  border: 1px solid #f0f0f0;
+  width: 694px; 
+  padding: 2px 3px; 
+  border: 1px solid #999; 
+  border-bottom: none; 
+} 
+.urlbutton { width: 40px; } 
+
+.url {
+  font-size: 14px;
+  color: #1a1a1a;
+} 
+
+.urlbar { 
+  width: 595px; 
+  padding: 3px; 
+  border: 1px solid #666; 
+  font-family: monospace; 
+}
+
+.game-frame {
+  width: 698px;
+  height: 300px;
+}
+
+#source-frame {
+  display: none;
+  width: 704px;
+  height: 300px;
+  border: 1px solid #333;
+}
+
+#next-controls {
+  margin-top: 20px;
+  display: none;
+
+}
+
+#hints {
+  width: 720px;
+  margin: 0 auto;
+  font-family: "Andale Mono", monospace;
+
+}
+
+#hints li {
+  margin: 10px 0;
+  list-style-position: inside;
+}
+
+.next-button {
+  -moz-box-shadow:inset 0px 0px 2px 0px #caefab;
+  -webkit-box-shadow:inset 0px 0px 2px 0px #caefab;
+  box-shadow:inset 0px 0px 2px 0px #caefab;
+  background-color:#77d42a;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  border-radius:5px;
+  border:1px solid #268a16;
+  display:inline-block;
+  color:#306108;
+  font-family:arial;
+  font-size:14px;
+  font-weight:bold;
+  padding:6px 24px;
+  text-decoration:none;
+  text-shadow:1px 1px 0px #aade7c;
+}.next-button:hover {
+  background-color:#5cb811;
+}.next-button:active {
+  position:relative;
+  top:1px;
+}
+
+code {
+/*  font-size: 15px; */
+/*  color: #bedaee; */
+  font-size: 1.1em;
+  font-family: courier;
+  font-weight: bold;
+
+}
+
+#reader-email {
+  padding: 2px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+}
+
+
+#game-done .question {
+  margin: 10px 0;
+}
+
+#game-done .question input {
+  background: #ddd solid;
+  padding: 2px 4px;
+  font-family: 'Audiowide', cursive;
+}
+
+#rabbit {
+	font-size: 50px;
+	line-height: 20px;
+}
+
+#training-progress {
+  text-align: left;
+  margin: 0 auto;
+}
+
+#training-progress td {
+  border: 1px solid #333;
+  padding: 5px;
+}
+
+#training-progress td.level-name {
+  padding-right: 20px;
+}
+
+#training-progress td.level-status {
+  text-align: center;
+  color: #27b613;
+}
+
+#training-progress .next-button {
+  font-size: 12px;
+  padding: 4px 7px;
+}
+
+#training-progress #rabbit {
+  font-size: 19px;
+}
+
+#intro-faq {
+  font-size: 15px;
+}
+
+#error-body {
+  font-family: "Andale Mono", monospace;
+}
+
+#game-done pre {
+  font-size: 3px;
+}
+
+/* Styles for source frames */
+#multi-header {
+  margin-top: 4px;
+  padding-left: 30px;
+}
+
+.select-file {
+  display: inline-block;
+  font-family: courier, fixed;
+  padding: 2px 6px;
+  border: 1px solid #ccc;
+  background-color: #fafafa;
+  cursor: pointer;
+  margin-right: 1px;
+}
+
+.select-file:hover {
+  background-color: #f0f0f0;
+}
+
+.select-file.selected {
+  background-color: #e0e0e0;
+}
+
+body#demo-code {
+  font-size: 10pt;
+}
+
+/* Fix for Chrome scrollbars */
+.syntaxhighlighter {
+  padding: 3px 0px;
+}
+
+#multi-examples .syntaxhighlighter {
+  display: none;
+}
+
+#multi-examples .selected .syntaxhighlighter {
+  display: block;
+}
+
+body#demo-code {
+  background-color: #121212 !important;
+  background-image: none;
+  font-size: 13px !important;
+  text-align: left;
+}
+
+#demo-code .select-file {
+  background-color: #121212 !important;
+  color: white;
+  border-color: #333 !important;
+}
+
+#demo-code .select-file.selected {
+  background-color: #d01d33 !important;
+  color: white;
+  border-color: #333;
+}
+
+#demo-code .syntaxhighlighter {
+  margin-top: 0;
+}
+#demo-code .syntaxhighlighter .toolbar { 
+  display: none !important;
+}

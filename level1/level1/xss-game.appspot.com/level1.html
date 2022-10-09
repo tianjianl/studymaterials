@@ -1,0 +1,85 @@
+<html>
+  <!--
+* PyWebCopy Engine [version 7.0.2]
+* Copyright 2020; Raja Tomar
+* File mirrored from [https://xss-game.appspot.com/level1]
+* At UTC datetime: [2022-10-04 00:55:25.532964]
+--><head>
+    <title>XSS game: Level 1</title>
+    <link type="text/css" rel="stylesheet" href="static/game.css">
+    <script src="static/game.js.mjs"></script>
+    <script>
+      window.onload = function() { setInputFieldReturnHandler(); }
+    </script>
+  </head>
+  <body>
+    <h1 id="level-title">[1/6]&#160;
+      Level 1: Hello, world of XSS</h1>
+
+    <div id="instructions">
+
+    <h2>Mission Description</h2>
+
+    
+    This level demonstrates a common cause of cross-site scripting where user
+    input is directly included in the page without proper escaping.
+    <br><br>
+    Interact with the vulnerable application window below and find
+    a way to make it execute JavaScript of your choosing. You can take
+    actions inside the vulnerable window or directly edit its URL bar.
+
+
+    <h2>Mission Objective</h2>
+
+    
+    Inject a script to pop up a JavaScript <code>alert()</code> in
+    the frame below.
+    <br><br>
+    Once you show the alert you will be able to advance to the next level.
+
+
+    <div id="next-controls">
+       
+        <a class="next-button" href="./level2">Advance to next level &gt;&gt;</a>
+      
+
+    </div>
+
+    <h2>Your Target</h2>
+  </div>
+
+  <div id="game-frame-container">
+    <div id="topbar"></div>
+    <div class="example-controls">
+      <span class="url">URL</span>
+      <input id="input1" class="urlbar" type="text" value="">
+      <input class="urlbutton" type="Submit" value="Go" onclick="updateFrame(1); return false;">
+    </div>
+    <iframe class="game-frame" src="level1/frame.html"></iframe>
+  </div>
+
+  <h2>Target code (<a href="./level1.html" onclick="toggleCode(); return false">toggle</a>)</h2>
+
+  <iframe id="source-frame" src="level1/source.html"></iframe>
+
+  <h2>Hints <span id="hint-num">0</span>/3 (<a href="./level1.html" onclick="showHint(); return false">show</a>)</h2>
+
+  <div id="hints">
+    <ol>
+  
+    <li style="display: none" data-hidden="true"><b>1.</b> 
+    To see the source of the application you can right-click on the
+frame and choose <i>View Frame Source</i> from the context menu or use your
+browser's developer tools to inspect network traffic.
+  
+    </li><li style="display: none" data-hidden="true"><b>2.</b> 
+    What happens when you enter a presentational tag such as &lt;h1&gt;?
+  
+    </li><li style="display: none" data-hidden="true"><b>3.</b> 
+    Alright, one last hint: &lt;script&gt; ... alert ...
+  
+    </li></ol>
+  </div>
+
+  </body>
+</html>
