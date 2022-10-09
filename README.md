@@ -9,7 +9,7 @@ This is a repository of my study notes on ML/DL/OS/Programming/Algorithms
 
 [Slides on Multilingual GLM](https://github.com/truthbutcher/studymaterials/blob/main/MultiGLM.pdf)
 
-[Case Studies on State-of-the-Art Retrieval Based Language Models](https://github.com/truthbutcher/studymaterials/blob/main/Retrieval_LM.pdf)
+[Retrieval Models](https://github.com/truthbutcher/studymaterials/blob/main/Retrieval.pdf)
 
 [NLP Notes(Updated June 1, 2022)](https://github.com/truthbutcher/studymaterials/blob/main/Paper_Notes___KEG_Group.pdf)
 
